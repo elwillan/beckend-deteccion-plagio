@@ -1,0 +1,5 @@
+El PageRank es un algoritmo recursivo utilizado por Google para determinar qué páginas web son más importantes que otras. El algoritmo considera que la importancia de una página web se refleja en la cantidad de otras páginas web que enlazan con esa página y la importancia de esas páginas.
+
+Para cada página que enlaza con una página A, el PageRank entre cero y uno se calcula iterativamente de acuerdo con los siguientes dos factores clave: la probabilidad de que un usuario se aleje de una página al azar; el PageRank de cualquier página que enlace a A, dividido por el número total de enlaces salientes de esa página. Esto supone que un enlace entre muchos enlaces salientes es menos valioso que un enlace entre menos enlaces salientes. Una variación del método PageRank basa la importancia de una página web en cuántas visitas recibe la página.
+
+Se puede abusar del método cuando las personas se vinculan deliberadamente a sitios para aumentar el PageRank de un sitio. Sin embargo, sigue siendo un buen indicador para que los motores de búsqueda lo usen como una variable para decidir los resultados más apropiados de acuerdo con una consulta.

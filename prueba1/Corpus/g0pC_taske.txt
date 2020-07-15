@@ -1,0 +1,5 @@
+En informática; La programación dinámica es una forma de resolver problemas que consiste en la superposición de subproblemas y una subestructura óptima. El método es más eficiente que los métodos ingenuos.
+
+El término fue acuñado por primera vez en la década de 1940 por Richard Bellman para describir el proceso de resolución de problemas donde necesita encontrar las mejores decisiones de manera consecuente. En 1953 había refinado esto al significado moderno. El campo fue fundado como un análisis de sistemas y un tema de ingeniería reconocido por el IEEE. La ecuación de Bellman es un resultado central de la programación dinámica que reafirma un problema de optimización en forma recursiva.
+
+La programación dinámica tiene poca conexión con la programación de computadoras, y en su lugar proviene del término programación matemática, un sinónimo de optimización. Por lo tanto, el programa es el mejor plan de acción que se produce. Por ejemplo, un cronograma de eventos en una exposición a veces se llama programa. Programación significa encontrar un plan de acción.

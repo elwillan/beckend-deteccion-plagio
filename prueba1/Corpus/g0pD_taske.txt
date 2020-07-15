@@ -1,0 +1,3 @@
+La programación dinámica (DP) es una herramienta general extremadamente poderosa para resolver dificultades de optimización en elementos ordenados de izquierda a derecha, por ejemplo, cadenas de caracteres. Es similar a dividir y conquistar, sin embargo, se diferencia ya que sus subproblemas no son independientes. Es fácilmente aplicable, en términos relativos, una vez entendido. Sin embargo, hasta que haya sido testigo de suficientes ejemplos, parece magia.
+
+DP minimiza el cálculo resolviendo subproblemas desde la base hacia arriba, almacenando la solución a un subproblema cuando se conquista inicialmente y buscando la solución cuando el subproblema se experimenta por segunda vez.

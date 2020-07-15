@@ -1,0 +1,22 @@
+La herencia es un concepto básico de la programación orientada a objetos donde
+la idea básica es crear nuevas clases que agreguen detalles adicionales a
+Clases existentes. Esto se hace permitiendo que las nuevas clases se reutilicen
+los métodos y variables de las clases existentes y los nuevos métodos y
+Se añaden clases para especializar la nueva clase. La herencia modela el
+Relación "is-kind-of" entre entidades (u objetos), por ejemplo,
+los postgraduados y los estudiantes universitarios son ambos tipos de estudiantes. Este tipo
+de relación se puede visualizar como una estructura de árbol, donde "estudiante"
+sería el nodo raíz más general y tanto "posgrado" como
+"Pregrado" sería extensiones más especializadas del "estudiante"
+nodo (o los nodos secundarios). En esta relación, "estudiante" sería
+conocida como la superclase o clase principal, mientras que "posgrado"
+ser conocido como la subclase o clase secundaria porque el "posgrado"
+La clase amplía la clase "estudiante".
+
+La herencia puede ocurrir en varias capas, donde si se visualiza
+Mostrar una estructura de árbol más grande. Por ejemplo, podríamos extender aún más
+el nodo "posgrado" añadiéndole dos clases adicionales extendidas
+llamado "estudiante de maestría" y "estudiante de doctorado" como ambos tipos de estudiantes
+Son tipos de estudiantes de posgrado. Esto significaría que tanto el ‘MSc
+Las clases de estudiante y "estudiante de doctorado" heredarían métodos y variables
+de las dos "clases de posgrado" y "clases de estudiantes".

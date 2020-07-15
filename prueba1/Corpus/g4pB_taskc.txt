@@ -1,0 +1,12 @@
+El modelo de espacio vectorial (o modelo de vector de términos) es un modelo algebraico para representar documentos de texto (y cualquier objeto, en general) como vectores de identificadores, como términos de índice. Se utiliza en el filtrado de información, recuperación de información, indexación y clasificación de relevancia. Fue utilizado por primera vez en el Sistema de recuperación de información SMART.
+
+Un documento se representa como un vector. Todas y cada una de las dimensiones corresponden a un término separado. Si existe un término en un documento, su valor en el vector no es igual a cero. Se han creado un par de algoritmos diferentes para calcular estos valores, también conocidos como pesos (de término). Uno de los esquemas más populares es la ponderación tf-idf.
+
+La definición del término depende de la aplicación. Por lo general, los términos son palabras clave, palabras sueltas o frases más largas. Siempre que las palabras se seleccionen para ser los términos, la dimensionalidad del vector es igual al número de palabras en el vocabulario.
+
+
+Es más fácil calcular el coseno del ángulo entre los vectores en lugar del ángulo mediante la fórmula:
+
+    cos (theta) = v1.v2 / (|| v1 |||| v2 ||)
+
+Un valor de cosinus nulo dice que la consulta y el vector del documento eran ortogonales y no tenían coincidencia, lo que significa que nunca se encontró ningún término de la consulta en el documento.

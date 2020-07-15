@@ -1,0 +1,6 @@
+Desde el desarrollo de la Web 2.0, Google como uno de los motores de búsqueda más populares del mundo, existen muchos algoritmos en la búsqueda web. En consecuencia, las implementaciones de algoritmos de análisis de enlaces típicamente descontarán dichos enlaces "internos". La palabra computadora puede ser explotada por los motores de búsqueda web como Google. Por lo tanto, la web es como un gráfico, y el PageRank, que es nuestra primera técnica para analizar el enlace que se asigna a cada nodo en
+El gráfico web tiene una puntuación numérica entre 0 y 1. Dado que el PageRank es el algoritmo más importante que se utiliza en el motor de Google. Por ejemplo, hay cuatro grupos de páginas: A, B, C y D. Si cada página enlaza con A, el valor de PageRank de A debe ser el valor total de B, C y D.
+PR (A) = PR (B) + PR (C) + PR (D)
+Además, hay una q = 0.15 que se utilizará en la página web, como el algoritmo general a continuación:
+ 
+Sin embargo, la desventaja del algoritmo de PageRank es que el sistema de renovación es demasiado lento.

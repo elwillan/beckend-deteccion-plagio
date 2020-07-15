@@ -1,0 +1,7 @@
+La herencia es un concepto en la programación orientada a objetos donde una clase secundaria o secundaria hereda características de una clase principal o superclase. El concepto toma su nombre de herencia genética, donde un niño puede heredar características genéticas de sus padres.
+
+La herencia, en su forma más simple, permite a los programadores modelar una relación donde un objeto es una especie de otro. Por ejemplo, dos clases, una que representa a un estudiante de pregrado y otra que representa a un estudiante de postgrado, se podría decir que pertenecen a una clase más generalizada que representa a todos los estudiantes. Del mismo modo, podríamos decir que los perros y los gatos son dos tipos de animales, o que los puentes y los rascacielos son dos tipos de estructuras hechas por el hombre.
+
+Se dice que las subclases extienden o especializan sus superclases. Los atributos (variables) y los comportamientos (funciones) que son comunes entre las clases se pueden incluir en la definición de la superclase, dejando las definiciones de subclase que contienen solo los atributos y comportamientos que son exclusivos de esa clase.
+
+La herencia se puede utilizar para crear una arquitectura de clases de múltiples niveles. En dicha arquitectura, incluso las subclases más bajas heredan todos los atributos y comportamientos definidos en las superclases más altas. Esto puede ahorrarle tiempo al programador porque hace innecesaria la duplicación de muchos códigos.

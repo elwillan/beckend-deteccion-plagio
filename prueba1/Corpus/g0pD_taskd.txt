@@ -1,0 +1,1 @@
+La teoría de Baye en relación con las probabilidades condicionales es de fundamental importancia, ya que permite un cálculo de PROB (AB) a partir de PROB (BA). Por lo tanto, se puede evitar la información estadística que a menudo se recopila en gran volumen.

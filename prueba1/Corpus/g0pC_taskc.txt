@@ -1,0 +1,6 @@
+El modelo de espacio vectorial es donde cada documento se ve como una bolsa de palabras, donde el orden tiene poca importancia. Cada documento es un vector donde cada palabra es una dimensión. El vector se construye luego de la frecuencia de cada palabra (dimensión). La desventaja de este enfoque es que la longitud del documento como un impacto en el vector, para compensar esto, puede calcular la similitud del coseno entre sus dos documentos de comparación. Esto encontrará la diferencia entre los dos vectores (el producto de puntos), ignorando el tamaño de ellos.
+
+Para consultar el espacio de búsqueda, la consulta también se puede representar como un vector, luego encontrará el documento cuyo vector tiene las mayores similitudes de coseno con su consulta. Hay una serie de sistemas de wighting que pueden incopearse para aumentar la precisión de los vextors.
+
+Hay algunos inconvenientes con este enfoque, calcular las similitudes de coseno entre cada vector puede ser costoso ya que el número de dimensiones puede ser de miles. Para abordar este problema, puede usar índices invertidos y luego una serie de heurística para mejorarlo.
+hasta arriba

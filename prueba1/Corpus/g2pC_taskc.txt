@@ -1,0 +1,9 @@
+En el modelo de espacio vectorial (VSM), los documentos toman la forma de "bolsas de palabras", un enfoque estándar de recuperación de información que representa documentos como en una estructura matemática de "bolsa", registrando qué términos están presentes y con qué frecuencia ocurren.
+
+El modelo de espacio vectorial se utiliza en la recuperación de información para determinar qué tan similares son los documentos entre sí y qué tan similares son los documentos para una consulta de búsqueda.
+
+En una colección de documentos, cada documento se puede ver como un vector de n valores (los términos en el documento), donde cada término es un eje. Las consultas también se pueden representar como vectores en este modelo de espacio vectorial, por lo que decidir qué documento coincide con la consulta más cercana se convierte en una cuestión de seleccionar el vector de documento más cercano al vector de consulta.
+
+El vector de consulta se compara a su vez con cada vector de documento utilizando una "medida de similitud de vectores", que es el coseno del ángulo entre el vector de consulta y el vector de documento.
+
+Esta ecuación se calcula dividiendo el producto escalar del vector de consulta y el vector de documento por el módulo del vector de consulta multiplicado por el módulo del vector de documento. El denominador tiene en cuenta las diferencias en la longitud del vector y tiene el efecto de "normalizar" la longitud. Cualquier documento que devuelva el puntaje de similitud de coseno más alto se considera el documento de coincidencia más cercano a la consulta.

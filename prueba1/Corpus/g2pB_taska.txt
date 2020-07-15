@@ -1,0 +1,9 @@
+La herencia es una característica importante en la programación orientada a objetos. Esto se debe a que permite crear nuevas clases que amplían las clases anteriores y entrar en más detalles.
+
+Esto se lleva a cabo permitiendo que la nueva clase reutilice los métodos y variables de clase existentes, al tiempo que crea métodos y variables específicos de clase. Esto significa que la nueva clase, la subclase, es una versión más especializada del original, o superclase.
+
+Debido a esto, significa que la subclase puede usar todos los métodos y variables públicas de la superclase; sin embargo, cualquier método o variable privado sigue siendo privado.
+
+También debe tenerse en cuenta que una clase solo puede extender una clase, p. solo puede ser una subclase de una superclase. Sin embargo, una superclase puede tener más de una subclase y una clase puede ser una subclase y una superclase. Si esto ocurre, la clase más especializada puede utilizar todos los métodos y variables no privados.
+
+Esto significa que la herencia se usa cuando los tipos tienen factores comunes y estos se incluirían en la superclase. Luego las subclases / es luego las extienden para agregar más detalles. Un ejemplo de esto podría ser usar una superclase de empleados y luego tener dos subclases llamadas a tiempo completo y a tiempo parcial. Como el empleado podría tener nombre, dirección y otros detalles, mientras que el tiempo completo podría tener un salario y el tiempo parcial podría calcular el salario de las horas trabajadas a tiempo parcial, ya que los miembros del personal a tiempo completo no las necesitarían.

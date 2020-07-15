@@ -1,0 +1,15 @@
+En la teoría de la probabilidad, el teorema de Bayes (o la ley de Bayes después del reverendo Thomas Bayes) proporciona una relación entre las probabilidades condicionales y marginales de dos eventos aleatorios. Por lo general, se usa para calcular las probabilidades posteriores dadas las observaciones. Por ejemplo: se puede observar que un paciente muestra ciertos síntomas. El teorema de Bayes podría usarse para calcular la probabilidad de que cierto diagnóstico sea correcto, dada esa observación.
+
+Dado que es un teorema formal, el teorema de Bayes se mantiene en todas las interpretaciones populares de probabilidad.
+El teorema de Bayes relaciona las probabilidades condicionales y marginales de los eventos ayb, donde b tiene una probabilidad que no desaparece:
+
+    P (a | b) = P (a | b) P (a) / P (b)
+
+Los términos en el teorema de Bayes son nombrados por una convención:
+
+P (A) es la probabilidad previa o la probabilidad marginal de A. No tiene en cuenta ninguna información sobre B y, por lo tanto, se considera "anterior".
+P (A | B) es la probabilidad condicional de A, dada B. Se deriva o depende del valor especificado de B. Por lo general, se llama probabilidad posterior
+P (B | A) es la probabilidad condicional de B dado A.
+P (B) (también conocida como la constante de normalización) es la probabilidad previa o marginal de B.
+
+Obviamente, el teorema de Bayes describe la forma en que las suposiciones sobre la observación del evento 'a' cambian al observar el evento 'b'.

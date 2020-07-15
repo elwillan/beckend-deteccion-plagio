@@ -1,0 +1,15 @@
+La programación dinámica es una técnica de diseño de algoritmos utilizada para problemas de optimización, como minimizar o maximizar. Al igual que divide y vencerás, la programación dinámica resuelve problemas combinando soluciones a subproblemas. Sin embargo, a diferencia de dividir y vencer, los subproblemas no siempre son independientes, ya que los subproblemas pueden compartir subproblemas, pero la solución a un subproblema puede no afectar las soluciones a otros subproblemas del mismo problema.
+
+Hay cuatro pasos en la programación dinámica:
+
+1. Caracterizar la estructura de una solución óptima.
+
+2. Defina el valor de la solución óptima de forma recursiva.
+
+3. Calcule los valores óptimos de la solución de arriba hacia abajo con el almacenamiento en caché o de abajo hacia arriba en una tabla.
+
+4. Construya una solución óptima a partir de valores calculados.
+
+Un ejemplo del tipo de problema para el que se puede usar la programación dinámica es: dadas dos secuencias, X = (x1, ..., xm) e Y = (y1, ..., yn) encuentran una subsecuencia común cuya longitud es máximo.
+
+La programación dinámica reduce la computación resolviendo subproblemas de abajo hacia arriba y almacenando la solución a un subproblema la primera vez que se resuelve. Además, buscar la solución cuando se vuelve a encontrar un subproblema ayuda a reducir el cálculo. Sin embargo, la clave en la programación dinámica es determinar la estructura de soluciones óptimas.

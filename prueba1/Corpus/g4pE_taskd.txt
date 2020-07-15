@@ -1,0 +1,23 @@
+"Teorema de Bayes" o "Regla de Bayes", o algo llamado razonamiento bayesiano
+La Conspiración Bayesiana es un grupo multinacional, interdisciplinario y sombrío de científicos que controla la publicación, las subvenciones, la tenencia y el tráfico ilícito de estudiantes de posgrado. La mejor manera de ser aceptado en la Conspiración Bayesiana es unirse a la Cruzada por el Campus de Bayes en la escuela secundaria o la universidad, y gradualmente avanzar hasta los círculos internos. .
+Teorema de Bayes
+
+
+Dejar y ser conjuntos. La probabilidad condicional requiere que
+ (1)
+donde denota intersección ("y"), y también que
+ (2)
+Por lo tanto,
+ (3)
+Ahora deja
+ (4)
+entonces es un evento en y para, entonces
+ (5)
+ (6)
+Pero esto puede ser escrito
+ (7)
+entonces
+
+
+
+Este documento propone una nueva medida llamada frecuencia de documento inversa escalada (SIDF) que evalúa la especificidad condicional de los términos de consulta sobre un subconjunto S de D y sin suponer nada sobre la independencia del término. S puede estimarse a partir de resultados de búsqueda, búsquedas OR o calcularse a partir de datos de índice invertido. Hemos evaluado los valores SIDF de los motores de búsqueda comerciales mediante el envío de consultas relevantes para el dominio de inversión financiera. Los resultados se comparan favorablemente entre motores de búsqueda y consultas. Nuestro enfoque tiene aplicaciones prácticas para escenarios del "mundo real" como en minería web, seguridad nacional y escenarios de investigación de marketing basados ​​en palabras clave.

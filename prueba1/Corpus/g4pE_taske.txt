@@ -1,0 +1,8 @@
+La programación dinámica es un método para resolver eficientemente una amplia gama de problemas de búsqueda y optimización que exhiben las características de superposición. Programación dinámica. Técnica de diseño, como el método de divide y vencerás.
+
+El libro de texto líder y más actualizado sobre la amplia metodología algorítmica de programación dinámica, que se puede utilizar para un control óptimo, ...
+La palabra Programación en el nombre no tiene nada que ver con escribir programas de computadora. Los matemáticos usan la palabra para describir un conjunto de reglas que cualquiera puede seguir para resolver un problema. No tienen que estar escritos en un lenguaje de computadora.
+La programación dinámica fue una creación de un matemático estadounidense, Richard Bellman, quien describió la forma de resolver problemas en los que necesita encontrar las mejores decisiones una tras otra. En los cuarenta y tantos años transcurridos desde este desarrollo, el número de usos y aplicaciones de la programación dinámica ha aumentado enormemente.
+Por ejemplo, en 1982 David Kohler usó programación dinámica para analizar la mejor manera de jugar al juego de dardos.
+
+1. En los últimos años, los lenguajes de programación dinámica se desarrollan muy rápidamente, especialmente PHP y Ruby. No hay duda de que ya se han convertido en la primera opción para muchos programadores al desarrollar aplicaciones web ... Cuando aprendes un nuevo lenguaje natural y comienzas a usarlo naturalmente, te encuentras usando nuevos conceptos y paradigmas que enriquecen el uso de el idioma que ya sabes; Espere el mismo resultado con los lenguajes de computadora.

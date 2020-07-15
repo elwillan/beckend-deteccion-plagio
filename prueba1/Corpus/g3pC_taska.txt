@@ -1,0 +1,15 @@
+En la programación orientada a objetos, la herencia es una forma de formar nuevas clases.
+(instancias de las cuales se llaman objetos) usando clases que ya tienen
+sido definido
+
+La herencia también a veces se llama generalización, porque el is-a
+Las relaciones representan una jerarquía entre clases de objetos. por
+ejemplo, una "fruta" es una generalización de "manzana", "naranja", "mango"
+y muchos otros. Uno puede considerar la fruta como una abstracción de manzana,
+naranja, etc. Por el contrario, dado que las manzanas son frutas (es decir, una manzana es-a
+fruta), las manzanas pueden heredar naturalmente todas las propiedades comunes a todos
+ruit, como ser un contenedor carnoso para la semilla de una planta.
+
+La herencia generalmente se logra anulando (reemplazando)
+uno o más métodos expuestos por ancestro, o agregando nuevos métodos a
+los expuestos por un antepasado.

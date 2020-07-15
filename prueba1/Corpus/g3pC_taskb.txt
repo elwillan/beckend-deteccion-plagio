@@ -1,0 +1,20 @@
+El algoritmo de PageRank utilizado por Google aprovecha el colectivo implícito
+inteligencia presente en la estructura de la red mundial. Cualquier página en
+Internet generalmente se vinculará al menos entre sí, al modelar esto
+estructura de enlace como un gráfico, podemos construir una representación simbólica de
+La red mundial.
+
+Como nivel básico, los nodos con los grados más altos pueden considerarse
+el más "popular" y, por inferencia, el más importante, que se puede utilizar
+para clasificar las páginas al devolver resultados de búsqueda.
+
+Ampliando esta teoría, podemos decir que los enlaces de un importante
+Las páginas son en sí mismas más importantes. Usando esta idea podemos ajustar el
+clasificaciones de nuestras páginas para que las páginas enlazadas sean las más importantes
+se consideran más relevantes
+
+El algoritmo real de Google PageRank es mucho más complejo que esto, pero
+sigue los mismos principios subyacentes. Incorpora algunos más avanzados
+razonamiento para evitar que los creadores de sitios web exploten su conocimiento del algoritmo
+para aumentar artificialmente su PageRank mediante el uso de anillos web y otros
+esquemas de hipervínculos recíprocos similares.

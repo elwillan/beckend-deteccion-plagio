@@ -1,0 +1,7 @@
+La programación dinámica es un método para resolver problemas que exhiben las propiedades de subproblemas superpuestos y una subestructura óptima. El término fue utilizado originalmente en la década de 1940 por Richard Bellman.
+
+La palabra "programación" en "programación dinámica" no tiene ninguna conexión particular con la programación de computadoras, y en su lugar proviene del término "programación matemática", un sinónimo de optimización. El "programa" es el plan óptimo para la acción que se produce.
+
+Por ejemplo, un cronograma finalizado de eventos en una exposición a veces se llama programa. La programación, en este sentido, significa encontrar un plan de acción aceptable.
+
+Decir que un problema tiene subproblemas superpuestos es decir que se usan los mismos subproblemas para resolver muchos problemas diferentes. La subestructura óptima significa que se pueden utilizar soluciones óptimas de subproblemas para encontrar las soluciones óptimas del problema general.

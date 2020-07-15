@@ -1,0 +1,9 @@
+Lo primero que se debe tener en cuenta al hablar sobre el algoritmo PageRank de Google es que un PageRank es esencialmente lo importante que es la página web para Internet. Entonces, en esencia, es un concurso de popularidad entre páginas web.
+
+Originalmente, los motores de búsqueda usaban la mayor densidad de palabras clave, sin embargo, esto podría ser abusado si se implementara el spam de palabras clave. En cambio, Google utiliza un sistema que se basa en sitios que se vinculan entre sí, p. cuanto más importante sea un sitio que esté vinculado al suyo, más alto será su sitio.
+
+El algoritmo que realmente utilizan los usuarios de Google se basa en 4 factores, el número total de páginas, el factor de amortiguación, el PageRank de una sola página y el número de enlaces salientes. Se utiliza un factor de amortiguación para contrarrestar a los surfistas aleatorios, que se aburren y luego cambian a otras páginas. Esta fórmula se reutiliza hasta que los resultados parecen converger juntos, para encontrar el PageRank, por lo que se calcula de forma iterativa.
+
+Google utiliza el PageRank para medir la popularidad del sitio y se asigna un número entre 0-10 a cada página web en función de su PageRank. Esto permite a Google calcular un valor de marketing para diferentes páginas web.
+
+También debe tenerse en cuenta que el PageRank se actualiza periódicamente cada 3 a 6 meses, esto es la influencia de los piratas informáticos en diferentes PageRanks.

@@ -1,0 +1,5 @@
+El teorema de Bayes (a menudo llamado ley de Bayes) conecta las probabilidades condicionales y marginales de dos eventos arbitrarios. Uno de sus usos es calcular las probabilidades posteriores dadas las observaciones.
+
+El teorema de Bayes desempeña un papel clave en el debate en torno a los principios de la estadística: las interpretaciones frecuentistas y bayesianas no están de acuerdo sobre las formas en que se deben asignar las probabilidades en las aplicaciones.
+
+El teorema de Bayes es útil para evaluar el resultado de las pruebas de drogas. Si una prueba puede identificar a un usuario de drogas el 99% del tiempo, y puede identificar a un no usuario como prueba negativa el 99% del tiempo, puede parecer una prueba relativamente precisa. Sin embargo, el teorema de Bayes revelará la falla de que, a pesar de la precisión aparentemente alta de la prueba, la probabilidad de que un empleado que dio positivo en realidad haya usado drogas es solo del 33%.

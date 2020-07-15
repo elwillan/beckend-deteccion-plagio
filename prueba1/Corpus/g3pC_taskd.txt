@@ -1,0 +1,13 @@
+En teoría de la probabilidad, las probabilidades previas y condicionales
+de dos eventos aleatorios están relacionados por el teorema de Bayes. El teorema es
+a menudo se usa cuando tenemos observaciones y deseamos calcular posterior
+probabilidades
+
+Por ejemplo, dada una observación de que se ve que un paciente tiene cierta
+síntomas, podemos usar el teorema de Bayes para calcular la probabilidad de que un
+El diagnóstico sugerido es correcto.
+
+P (A) es la probabilidad previa de A. P (A | B) es la probabilidad condicional
+de A dado B. P (B | A) es la probabilidad condicional de B dado A. P (B) es
+la probabilidad previa de B, y no debe ser cero. Se da el teorema de Bayes
+por P (A | B) = (P (B | A) P (A)) / (P (B)).

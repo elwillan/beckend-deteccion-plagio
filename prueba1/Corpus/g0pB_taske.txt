@@ -1,0 +1,13 @@
+
+1516/5000
+La programación dinámica es un método para resolver problemas de programación matemática que exhiben las propiedades de subproblemas superpuestos y una subestructura óptima. Este es un método mucho más rápido que otros métodos más ingenuos. La palabra "programación" en "programación dinámica" se refiere a la optimización, que comúnmente se conoce como programación matemática. Richard Bellman originalmente acuñó el término en la década de 1940 para describir un método para resolver problemas donde uno necesita encontrar las mejores decisiones una tras otra, y en 1953, refinó su método al significado moderno actual.
+
+La subestructura óptima significa que al dividir la programación en soluciones óptimas de subproblemas, estos se pueden utilizar para encontrar las soluciones óptimas del problema general. Un ejemplo es la computación del camino más corto hacia una meta desde un vértice en un gráfico. Primero, calcule el camino más corto hacia la meta desde todos los vértices adyacentes. Luego, utilizando esto, se puede encontrar la mejor ruta general, lo que demuestra el principio de programación dinámica. Este proceso general de tres pasos se puede utilizar para resolver un problema:
+
+1. Romper el problema diferentes subproblemas más pequeños.
+
+2. Utilice recursivamente este proceso de tres pasos para calcular la ruta óptima en el subproblema.
+
+3. Construya una solución óptima, utilizando los subproblemas óptimos calculados, para el problema original.
+
+Este proceso continúa de manera recursiva, trabajando sobre los subproblemas dividiéndolos en subproblemas y así sucesivamente, hasta que se llega a un caso simple (uno que sea fácil de resolver).

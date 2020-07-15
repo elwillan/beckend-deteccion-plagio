@@ -1,0 +1,10 @@
+La herencia permite que los programas desarrollados en un lenguaje Orientado a Objetos reutilicen el código sin tener que replicarlo innecesariamente en otro lugar dentro del programa.
+
+Para lograr esto, el programador debe tener en cuenta generalizaciones y similitudes sobre varios aspectos del programa.
+
+Por ejemplo, podría existir un programa para modelar diferentes formas de transporte. A primera vista, un automóvil y un tren pueden no tener mucho en común. Pero de manera abstracta, ambos tendrán una velocidad a la que viajan, una dirección y una posición actual.
+Los métodos que utilizan estos datos se pueden especificar arriba en la jerarquía de herencia, por ejemplo, en una clase de "Transporte". Por ejemplo, podría tener un método que calcule la nueva posición de un tren después de viajar x minutos en dirección y. Del mismo modo, es posible que desee poder encontrar la misma información para un objeto del tipo de automóvil.
+La herencia significa que si dicho método se definió en la superclase de las clases de trenes y vagones, cualquier vagón u objeto de tren puede utilizarlo.
+
+Se dice que las subclases de trenes y vagones "amplían" la clase de transporte, ya que tendrán características adicionales que no compartirán. P.ej. la capacidad de pasajeros sería una variable de clase tanto del automóvil como del tren (pero tiene valores diferentes), y un tren puede tener métodos en la línea de "está conectado al baño".
+Si luego desea agregar formas de transporte adicionales, como un avión, es posible que también desee tener una función de "inodoro activado". Entonces podría tener una jerarquía extendida, donde una clase de transporte masivo extiende la clase de transporte. Bajo el cual tendrías un tren y un avión, que heredarían características de ambas superclases.

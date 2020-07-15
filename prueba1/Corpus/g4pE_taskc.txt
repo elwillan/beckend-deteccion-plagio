@@ -1,0 +1,7 @@
+La definición del término depende de la aplicación. Por lo general, los términos son palabras sueltas, palabras clave o frases más largas. Si se eligen las palabras como términos, la dimensionalidad del vector es el número de palabras en el vocabulario. Un documento se representa como un vector. Cada dimensión corresponde a términos separados. Si aparece un término en el documento, su valor en el vector no es cero.
+Las clasificaciones de relevancia de los documentos en una búsqueda de palabras clave se pueden calcular, utilizando los supuestos de la teoría de similitudes de documentos, comparando la desviación de los ángulos entre cada vector de documento y el vector de consulta original donde la consulta se representa como el mismo tipo de vector que los documentos.
+LIMITACIÓN:
+Hay alguna limitación del modelo de espacio vectorial.
+Los modelos basados ​​en y extendiendo el modelo de espacio vectorial incluyen:
+• Modelo de espacio vectorial generalizado.
+• (mejorado) Modelo de espacio vectorial basado en temas [1] (eTVSM): amplía el modelo de espacio vectorial eliminando la restricción de que los vectores de término sean ortogonales. A diferencia del modelo de espacio vectorial generalizado, el Modelo de espacio vectorial basado en temas (mejorado) no depende de similitudes basadas en concurrencia entre términos. La mejora del Modelo de espacio vectorial mejorado basado en temas (en comparación con el no mejorado) es una propuesta sobre cómo derivar vectores de término de una ontología.

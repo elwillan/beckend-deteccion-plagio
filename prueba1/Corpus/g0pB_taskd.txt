@@ -1,0 +1,27 @@
+
+El teorema de Bayes relaciona las probabilidades condicionales y marginales de
+Dos eventos aleatorios. Por ejemplo, se puede ver que una persona tiene cierta
+síntomas médicos El teorema de Bayes se puede usar para calcular el
+probabilidad de que, dada esa observación, el diagnóstico propuesto sea
+lo que es correcto.
+
+El teorema de Bayes forma una relación entre las probabilidades xcof
+eventos A y B. Intuitivamente, el teorema de Bayes en esta forma describe el
+forma en que se actualiza el reconocimiento de 'A' por haber observado
+'SI'.
+
+P (A | B) = P (B | A) P (A) / P (B)
+
+P (A | B) es la probabilidad condicional de A dado B. Se deriva o depende del valor especificado de B, por lo tanto, también se conoce como la probabilidad posterior.
+
+P (B | A) es la probabilidad condicional de B dado A.
+
+P (A) es la probabilidad previa A. No tiene en cuenta ninguna información sobre B, por lo que es "anterior".
+
+P (B) es la probabilidad previa o marginal de B, y actúa para normalizar la probabilidad.
+
+Para derivar el teorema, comenzamos con la definición de condicional
+probabilidad. Al combinar y reorganizar estas dos ecuaciones para A
+y B, obtenemos un lema llamado regla de producto para
+probabilidades Siempre que P (B) no sea un cero, dividiendo ambos lados
+por P (B) nos rinde con el teorema de Bayes.

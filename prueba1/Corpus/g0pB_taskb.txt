@@ -1,0 +1,26 @@
+PageRank (PR) se refiere tanto al concepto como al sistema de Google utilizado
+para clasificar la importancia de las páginas en la web. El "PageRank" de un
+sitio se refiere a su importancia o valor en la web en relación con el
+resto de los sitios que han sido editados con "PageRank".
+
+El algoritmo básicamente funciona como un concurso de popularidad, si su sitio
+está vinculado a sitios web populares, entonces su sitio se considera más
+popular. Sin embargo, el RP no solo se aplica al sitio web en su conjunto
+- diferentes páginas dentro de un sitio web obtienen diferentes relaciones públicas dependientes
+en una serie de factores:
+
+* Enlaces entrantes (backlinks): cuántas páginas (que no sean las de su sitio web) enlazan a esta página en particular
+
+* Enlaces salientes (enlaces hacia adelante): cuántas páginas externas enlaza la página en particular
+
+* Enlaces colgantes: cuántas páginas sin enlaces externos están vinculadas desde una página en particular
+
+* Enlaces profundos: cuántos enlaces que no son la página de inicio están vinculados desde una página en particular
+
+PR intenta emular a un "surfista aleatorio". El algoritmo incluye un
+factor de amortiguación, que es la probabilidad de que un surfista aleatorio
+aburrirse y visitar una nueva página; por defecto, esto es 0.85. UNA
+variación sobre esto es el "surfista intencional", donde la importancia de
+una página se basa en las visitas reales a los sitios por parte de los usuarios. Este método es
+utilizado en la barra Google, que informa las visitas reales del sitio a
+Google

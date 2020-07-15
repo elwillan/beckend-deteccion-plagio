@@ -1,0 +1,9 @@
+La probabilidad de que ocurra un evento significa considerar la probabilidad de que ocurra o el número de la instancia y dividir este valor por el número total de eventos. La ecuación para este cálculo sería la siguiente:
+Probabilidad (P) = número de instancia / número total de eventos
+Por otro lado, la Teoría de la probabilidad (P) generalmente implica asignar valores a los eventos. Por ejemplo:
+(P) = 1: el evento seguramente ocurrirá
+(P) = 0: el evento es seguro que NO ocurrirá
+(P) = 0.5: el evento ocurre la mitad del tiempo.
+
+También hay una probabilidad condicional que generalmente está interesada en la forma en que las variables se relacionan entre sí. El teorema de Bayes es el nombre dado a un teorema importante relacionado
+Probabilidades condicionales y puede verse como una forma de entender cómo la probabilidad de que una teoría sea verdadera se ve afectada por una nueva evidencia. Se ha utilizado en una amplia variedad de contextos, desde la biología marina hasta el desarrollo de bloqueadores de spam "bayesianos" para sistemas de correo electrónico.

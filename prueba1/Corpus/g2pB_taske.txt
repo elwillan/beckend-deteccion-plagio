@@ -1,0 +1,10 @@
+En matemáticas e informática, la programación dinámica es un método para resolver problemas, que exhibe las propiedades de subproblemas superpuestos y una subestructura óptima. El método lleva mucho menos tiempo que los métodos ingenuos.
+El término se usó originalmente en la década de 1940 para describir el proceso de resolución de problemas donde uno necesita encontrar las mejores decisiones una tras otra.
+El campo fue fundado como un análisis de sistemas y un tema de ingeniería reconocido por el IEEE.
+La palabra "programación" en "programación dinámica" no tiene ninguna conexión particular con la programación de computadoras, y en su lugar proviene del término "programación matemática", un sinónimo de optimización. Por lo tanto, el "programa" es el plan óptimo para la acción que se produce. Por ejemplo, un cronograma finalizado de eventos en una exposición a veces se llama programa. La programación, en este sentido, significa encontrar un plan de acción aceptable, un algoritmo.
+La subestructura óptima significa que se pueden utilizar soluciones óptimas de subproblemas para encontrar las soluciones óptimas del problema general. Por ejemplo, el camino más corto hacia un objetivo desde un vértice en un gráfico se puede encontrar calculando primero el camino más corto hacia el objetivo desde todos los vértices adyacentes, y luego utilizando esto para elegir el mejor camino general.
+En general, podemos resolver un problema con una subestructura óptima utilizando un proceso de tres pasos:
+1. Divida el problema en subproblemas más pequeños.
+2. resuelva estos problemas de manera óptima utilizando este proceso de tres pasos de forma recursiva.
+3. Utilice estas soluciones óptimas para construir una solución óptima para el problema original.
+Los subproblemas se resuelven dividiéndolos en subproblemas, y así sucesivamente, hasta que lleguemos a un caso simple que se pueda resolver en tiempo constante.

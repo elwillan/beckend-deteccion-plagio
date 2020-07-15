@@ -1,0 +1,21 @@
+El teorema de Bayes se llamaba después del reverendo Thomas Bayes y es un método utilizado
+en teoría de la probabilidad. Este teorema tiene como objetivo relacionar el condicional y
+probabilidades marginales de que ocurran dos eventos aleatorios, y dados
+varias observaciones se utilizan con frecuencia para calcular posteriores
+probabilidades El teorema de Bayes también se conoce a menudo como la ley de Bayes.
+
+Un ejemplo de dónde se puede usar el teorema de Bayes es el siguiente
+extracto: "Supongamos que existe una escuela con cuarenta por ciento de mujeres y
+sesenta por ciento hombres como estudiantes. Las estudiantes solo pueden usar
+faldas o pantalones en igual número, mientras que todos los estudiantes varones pueden
+solo use pantalones. Un observador ve al azar a un estudiante de un
+distancia y todo lo que puede ver es que este estudiante está usando
+pantalones. ¿Cuál es la probabilidad de que este estudiante sea mujer?
+
+Hay un debate entre frecuentas y bayesianos sobre cómo Bayes "
+El teorema juega un papel importante en torno al comienzo de la estadística
+matemáticas. Las explicaciones frecuentes y bayesianas no están de acuerdo
+las formas en que se deben asignar las probabilidades. Esto es principalmente
+porque los bayesianos asignan probabilidades en términos de creencias, mientras que
+los frecuentistas asignan probabilidades a eventos aleatorios de acuerdo con el
+frecuencias de ellos ocurriendo.

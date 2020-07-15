@@ -1,0 +1,14 @@
+El modelo de espacio vectorial es un modelo algebraico para representar documentos de texto (y en general, cualquier objeto) como vectores de identificadores, como, por ejemplo, términos de índice. Su primer uso fue en el Sistema de recuperación de información SMART. Se utiliza en el filtrado de información, recuperación de información, indexación y clasificación de relevancia.
+
+Un documento se representa como un vector, y cada dimensión corresponde a un término separado. Si aparece un término en el documento, su valor en el vector no es cero. Se han desarrollado varias formas diferentes de calcular estos valores, también conocidos como pesos (de término). La definición del término depende de la aplicación. Por lo general, los términos son palabras sueltas, palabras clave o frases más largas. Si las palabras se eligen como términos, la dimensionalidad del vector es la cantidad de palabras en el vocabulario (la cantidad de palabras distintas que aparecen en el corpus).
+
+Uno de los esquemas más conocidos es la ponderación tf-idf, propuesta por Salton, Wong y Yang. En el modelo clásico de espacio vectorial, el término ponderaciones específicas en los vectores del documento son productos de parámetros locales y globales.
+
+Las clasificaciones de relevancia de los documentos en una búsqueda de palabras clave se pueden calcular, utilizando los supuestos de la teoría de similitudes de documentos, comparando la desviación de los ángulos entre cada vector de documento y el vector de consulta original donde la consulta se representa como el mismo tipo de vector que los documentos.
+
+El modelo de espacio vectorial tiene las siguientes limitaciones:
+
+    * Las palabras clave de búsqueda deben coincidir exactamente con los términos del documento; las subcadenas de palabras pueden provocar una "coincidencia de falsos positivos";
+    * Sensibilidad semántica; documentos con un contexto similar pero vocabulario de términos diferentes no se asociarán, lo que resulta en una "coincidencia negativa falsa";
+    * El orden en que aparecen los términos en el documento se pierde en la representación del espacio vectorial;
+    * Los documentos largos están mal representados porque tienen valores de similitud pobres (un producto escalar pequeño y una gran dimensionalidad).

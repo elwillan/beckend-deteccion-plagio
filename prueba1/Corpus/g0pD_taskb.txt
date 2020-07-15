@@ -1,0 +1,3 @@
+El algoritmo PageRank está patentado por la Universidad de Stanford. Es un algoritmo de análisis de enlaces empleado por el motor de búsqueda de Internet de Google que asigna un valor utilizado para medir la importancia de cada elemento de un conjunto de documentos con hipervínculos, como el WWW, con el propósito de "medir" su importancia relativa dentro del conjunto .
+
+Google posee derechos de licencia exclusivos sobre la patente de la Universidad de Stanford. La Universidad recibió 1,8 millones de acciones en Google a cambio del uso de la patente.

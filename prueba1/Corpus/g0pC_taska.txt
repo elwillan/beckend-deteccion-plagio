@@ -1,0 +1,7 @@
+La herencia en la programación orientada a objetos es donde se forma una nueva clase usando clases que ya han sido definidas. Estas clases tienen algunos de los comportamientos y atributos que existían en las clases de las que heredó. El peropos de herencia en la programación orientada a objetos es minimizar la reutilización del código existente sin modificación.
+
+La herencia permite que las clases se clasifiquen, de manera similar a la forma en que los humanos catalogan. También proporciona una forma de generalizar du a la relación "es una" entre clases. Por ejemplo, una "vaca" es una generalización de "animal" de manera similar a "cerdos" y tramposos ". Derrotar a las clases de esta manera nos permite definir atributos y comportamientos que son comunes a todos los animales de una clase, por lo que los tramposos lo harían de forma natural. Las propiedades de corazón se refieren a todos los animales.
+
+La ventaja de la herencia es que las clases que de otro modo tendrían mucho código similar, en su lugar pueden compartir el mismo código, reduciendo así la complejidad del programa. La herencia, por lo tanto, también puede ser referida como polimorfismo, que es donde muchas partes del código son controladas por el código de control compartido.
+
+La herencia se puede lograr anulando métodos en su antepasado o agregando nuevos métodos.

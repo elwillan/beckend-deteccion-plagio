@@ -1,0 +1,10 @@
+En el modelo de espacio vectorial, los documentos de los que se va a recuperar la información se representan como vectores. El término ponderación identifica el éxito o el fracaso del método del espacio vectorial. Los términos son básicamente las palabras o cualquier unidad de indexación utilizada para identificar el contenido de un texto. Además, un esquema de ponderación de términos juega un papel importante para la medida de similitud. Las medidas de similitud identifican en gran medida la eficiencia de recuperación de un sistema particular de recuperación de información.
+ Esto depende en gran medida de las fórmulas. Donde las fórmulas dependen solo de las frecuencias dentro del documento y no dependen de las frecuencias entre documentos. Los componentes principales de las fórmulas son los siguientes:
+Binario:
+La fórmula binaria le da a cada palabra que aparece en un documento la misma relevancia. Esto puede ser útil cuando el número de veces que aparece una palabra no se considera importante.
+Término frecuencia:
+Esta fórmula cuenta cuántas veces aparece el término en un documento. Cuantas más veces aparezca un término t en el documento d, más probable es que t sea relevante para el documento. Usado solo, favorece palabras comunes y documentos largos. Esta fórmula da más crédito a las palabras que aparecen con más frecuencia, pero a menudo demasiado crédito.
+Frecuencia de término normalizada aumentada
+Esta fórmula trata de dar crédito a cualquier palabra que aparece y luego da crédito adicional a las palabras que aparecen con frecuencia.
+Término logarítmico frecuencia
+Los logaritmos son una forma de restar importancia al efecto de la frecuencia. La literatura propone el registro y el registro alternativo como los más utilizados

@@ -1,0 +1,10 @@
+El uso del modelo de espacio vectorial para la recuperación de información modela todas las páginas
+y consultas como vectores dispersos de alta dimensión. Cada elemento en el vector
+representa una palabra clave diferente.
+
+La similitud entre dos páginas o una consulta y se puede calcular una página
+usando la fórmula del producto de puntos para encontrar el coseno entre ellos. Esta
+representa el ángulo entre ellos, pero en el espacio n-dimensional. Resultados
+variará de -1 a 1, siendo 1 un partido cercano. Normalmente los vectores
+no tendrá ningún valor negativo, por lo que los resultados siempre serán mayores que
+o igual a 0. El coseno se calcula usando: cos A = (| a || b |) / (a.b)

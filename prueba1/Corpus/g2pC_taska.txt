@@ -1,0 +1,7 @@
+La herencia es una forma de formar nuevas clases (cuyas instancias se denominan objetos) utilizando clases que ya se han definido. Las nuevas clases, conocidas como clases derivadas, asumen (o heredan) los atributos y el comportamiento de las clases preexistentes, que se denominan clases base (o clases ancestrales). Su objetivo es ayudar a reutilizar el código existente con poca o ninguna modificación.
+
+Una ventaja de la herencia es que los módulos con interfaces suficientemente similares pueden compartir una gran cantidad de código, lo que reduce la complejidad del programa. La herencia, por lo tanto, tiene otra visión, una dual, llamada polimorfismo, que describe muchas piezas de código controladas por un código de control compartido.
+
+La herencia generalmente se logra anulando (reemplazando) uno o más métodos expuestos por antepasado, o agregando nuevos métodos a los expuestos por un antepasado.
+
+Al definir esta jerarquía de herencia ya hemos definido ciertas restricciones, no todas las cuales son deseables. Soltería: utilizando una herencia única, una subclase puede heredar de una sola superclase. Visibilidad: siempre que el código del cliente tiene acceso a un objeto, generalmente tiene acceso a todos los datos de la superclase del objeto. Estático: la jerarquía de herencia de un objeto se fija en la instanciación cuando se selecciona el tipo de objeto y no cambia con el tiempo.

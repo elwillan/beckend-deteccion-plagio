@@ -1,0 +1,16 @@
+En la teoría de la probabilidad, el teorema de Bayes relaciona las probabilidades condicionales y marginales de dos eventos aleatorios. A menudo se usa para calcular las probabilidades posteriores dadas las observaciones.
+
+El teorema de Bayes se expresa matemáticamente como:
+
+P (A | B) = (P (B | A) P (A)) / P (B)
+
+donde P (A | B) es la probabilidad condicional de A dado B, P (A) es la probabilidad previa de A, P (B) es la probabilidad previa de B y P (B | A) es la probabilidad condicional de B dado A.
+
+El teorema de Bayes relaciona las probabilidades condicionales y marginales de dos eventos aleatorios P ​​(A) y P (B), y es válido en todas las interpretaciones comunes de probabilidad. Por ejemplo, en una escuela compuesta por 3/5 niños y 2/5 niñas, las niñas usan faldas de pantalones en igual número y todos los niños usan pantalones. Si un estudiante es observado desde una distancia usando pantalones, el teorema de Bayes puede usarse para determinar la probabilidad de que este estudiante sea una niña.
+
+P (A) es la probabilidad de que el estudiante sea una niña (que es 2/5).
+P (B | A) es la probabilidad de que el estudiante use pantalones dado que el estudiante es una niña, que es 0.5
+P (B) es la probabilidad de que un estudiante al azar use pantalones, que se puede calcular como P (B) = P (B | A) P (A) + P (B | A ') P (A') donde 'denota un evento complementario, que es 0.8.
+Por lo tanto, la probabilidad usando la fórmula es 0.25.
+
+El teorema de Bayes se usa a menudo para calcular probabilidades posteriores dadas observaciones, por ejemplo, la probabilidad de que un diagnóstico médico propuesto sea correcto, dados ciertos síntomas observados.

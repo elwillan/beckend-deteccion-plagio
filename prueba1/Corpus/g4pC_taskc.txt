@@ -1,0 +1,6 @@
+El modelo de espacio vectorial son los documentos que se representan como "bolsas de palabras". La idea básica es representar cada documento como un vector de ciertas frecuencias de palabras ponderadas. Para hacerlo, se necesitan los siguientes pasos de análisis y extracción.
+1. Ignorando el caso, extraiga todas las palabras únicas de todo el conjunto de documentos.
+2. Elimine las `` palabras clave '' que no contienen contenido, como `` a '', `` y '', `` el '', etc. Para obtener una lista de ejemplos de palabras clave.
+3. Para cada documento, cuente el número de apariciones de cada palabra.
+4. Usando criterios heurísticos o teóricos de la información, elimine las palabras de `` alta frecuencia '' y `` baja frecuencia '' que no contienen contenido.
+5. Después de la eliminación anterior, suponga que quedan palabras únicas. Asigne un identificador único entre y para cada palabra restante, y un identificador único entre y para cada documento.
